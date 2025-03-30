@@ -1,0 +1,1450 @@
+
+## Block: spm
+
+
+### spm.v
+
+
+
+
+## Block: caravel_upw
+
+
+### defines.v
+
+%Error: No top level module found
+%Error: Exiting due to 1 error(s)
+
+
+### user_proj_example.v
+
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example.v:66:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   66 |     input  [`MPRJ_IO_PADS-1:0] io_in,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example.v:67:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   67 |     output [`MPRJ_IO_PADS-1:0] io_out,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example.v:68:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   68 |     output [`MPRJ_IO_PADS-1:0] io_oeb,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example.v:76:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   76 |     wire [`MPRJ_IO_PADS-1:0] io_in;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example.v:77:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   77 |     wire [`MPRJ_IO_PADS-1:0] io_out;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example.v:78:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   78 |     wire [`MPRJ_IO_PADS-1:0] io_oeb;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example.v:96:23: Define or directive not defined: '`MPRJ_IO_PADS'
+   96 |     assign io_oeb = {(`MPRJ_IO_PADS-1){rst}};
+      |                       ^~~~~~~~~~~~~
+%Error: Exiting due to 7 error(s)
+
+
+### user_project_wrapper.v
+
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_project_wrapper.v:65:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   65 |     input  [`MPRJ_IO_PADS-1:0] io_in,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_project_wrapper.v:66:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   66 |     output [`MPRJ_IO_PADS-1:0] io_out,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_project_wrapper.v:67:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   67 |     output [`MPRJ_IO_PADS-1:0] io_oeb,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_project_wrapper.v:73:12: Define or directive not defined: '`MPRJ_IO_PADS'
+   73 |     inout [`MPRJ_IO_PADS-10:0] analog_io,
+      |            ^~~~~~~~~~~~~
+%Error: Exiting due to 4 error(s)
+
+
+### user_proj_example2.v
+
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example2.v:66:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   66 |     input  [`MPRJ_IO_PADS-1:0] io_in,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example2.v:67:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   67 |     output [`MPRJ_IO_PADS-1:0] io_out,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example2.v:68:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   68 |     output [`MPRJ_IO_PADS-1:0] io_oeb,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example2.v:76:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   76 |     wire [`MPRJ_IO_PADS-1:0] io_in;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example2.v:77:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   77 |     wire [`MPRJ_IO_PADS-1:0] io_out;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example2.v:78:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   78 |     wire [`MPRJ_IO_PADS-1:0] io_oeb;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/caravel_upw/src/user_proj_example2.v:96:23: Define or directive not defined: '`MPRJ_IO_PADS'
+   96 |     assign io_oeb = {(`MPRJ_IO_PADS-1){rst}};
+      |                       ^~~~~~~~~~~~~
+%Error: Exiting due to 7 error(s)
+
+
+
+## Block: test_sram_macro
+
+
+### test_sram_macro.v
+
+%Error: /tmp/tmp365b3kp4/test_sram_macro/src/test_sram_macro.v:35:1: Cannot find file containing module: 'sky130_sram_1kbyte_1rw1r_32x256_8'
+   35 | sky130_sram_1kbyte_1rw1r_32x256_8 sram0(
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/test_sram_macro/src/test_sram_macro.v:35:1: This may be because there's no search path specified with -I<dir>.
+   35 | sky130_sram_1kbyte_1rw1r_32x256_8 sram0(
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        ... Looked in:
+             sky130_sram_1kbyte_1rw1r_32x256_8
+             sky130_sram_1kbyte_1rw1r_32x256_8.v
+             sky130_sram_1kbyte_1rw1r_32x256_8.sv
+             obj_dir/sky130_sram_1kbyte_1rw1r_32x256_8
+             obj_dir/sky130_sram_1kbyte_1rw1r_32x256_8.v
+             obj_dir/sky130_sram_1kbyte_1rw1r_32x256_8.sv
+%Error: /tmp/tmp365b3kp4/test_sram_macro/src/test_sram_macro.v:50:1: Cannot find file containing module: 'sky130_sram_1kbyte_1rw1r_32x256_8'
+   50 | sky130_sram_1kbyte_1rw1r_32x256_8 sram1(
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%Error: Exiting due to 3 error(s)
+
+
+
+## Block: blabla
+
+
+### blabla.v
+
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:759:10: Operator ASSIGN expects 64 bits on the Assign RHS, but Assign RHS's REPLICATE generates 32 bits.
+                                                           : ... In instance blabla.qr3
+  759 |       d1 = {d0[15 : 0], d0[31 : 16]};
+      |          ^
+                ... Use "/* verilator lint_off WIDTH */" and lint_on around source to disable this message.
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:762:10: Operator ASSIGN expects 64 bits on the Assign RHS, but Assign RHS's REPLICATE generates 32 bits.
+                                                           : ... In instance blabla.qr3
+  762 |       b1 = {b0[19 : 0], b0[31 : 20]};
+      |          ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:765:10: Operator ASSIGN expects 64 bits on the Assign RHS, but Assign RHS's REPLICATE generates 32 bits.
+                                                           : ... In instance blabla.qr3
+  765 |       d3 = {d2[23 : 0], d2[31 : 24]};
+      |          ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:768:10: Operator ASSIGN expects 64 bits on the Assign RHS, but Assign RHS's REPLICATE generates 32 bits.
+                                                           : ... In instance blabla.qr3
+  768 |       b3 = {b2[24 : 0], b2[31 : 25]};
+      |          ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:261:26: Operator ASSIGNDLY expects 64 bits on the Assign RHS, but Assign RHS's CONST '32'h0' generates 32 bits.
+                                                           : ... In instance blabla
+  261 |             state_reg[i] <= 32'h0;
+      |                          ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:400:26: Operator ASSIGN expects 64 bits on the Assign RHS, but Assign RHS's ARRAYSEL generates 32 bits.
+                                                           : ... In instance blabla
+  400 |             state_new[i] = init_state_word[i];
+      |                          ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:501:51: Operator ADD expects 64 bits on the LHS, but LHS's ARRAYSEL generates 32 bits.
+                                                           : ... In instance blabla
+  501 |           msb_block_state[i] = init_state_word[i] + state_reg[i];
+      |                                                   ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/blabla/src/blabla.v:501:30: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's ADD generates 64 bits.
+                                                           : ... In instance blabla
+  501 |           msb_block_state[i] = init_state_word[i] + state_reg[i];
+      |                              ^
+%Error: Exiting due to 8 warning(s)
+
+
+
+## Block: PPU
+
+
+### PPU.v
+
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:249:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  249 |     2'b0_?: sprtemp_ptr = {p, oam_ptr[1:0]};
+      |     ^~~~~~
+                    ... Use "/* verilator lint_off CASEWITHX */" and lint_on around source to disable this message.
+%Warning-CASEINCOMPLETE: /tmp/tmp365b3kp4/PPU/src/PPU.v:248:5: Case values incompletely covered (example pattern 0x0)
+  248 |     case({cycle[8], cycle[2]}) 
+      |     ^~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:259:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  259 |     7'b1_10_??_??: oam_bus = sprtemp_data;          
+      |     ^~~~~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:260:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  260 |     7'b1_??_00_??: oam_bus = 8'b11111111;                   
+      |     ^~~~~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:261:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  261 |     7'b1_??_01_00: oam_bus = {4'b0000, spr_y_coord[3:0]};   
+      |     ^~~~~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:262:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  262 |     7'b?_??_??_10: oam_bus = {oam_data[7:5], 3'b000, oam_data[1:0]};  
+      |     ^~~~~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:270:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  270 |     5'b1_??_??: oam_inc = {oam_ptr[1:0] == 3, 1'b1};        
+      |     ^~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:271:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  271 |     5'b0_00_??: oam_inc = 2'b01;                            
+      |     ^~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:273:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  273 |     5'b0_01_??: oam_inc = {oam_ptr[1:0] == 3, 1'b1};        
+      |     ^~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:276:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  276 |     5'b0_11_??: oam_inc = 2'b11;
+      |     ^~~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:278:5: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  278 |     5'b0_10_??: oam_inc = {1'b0, oam_ptr[1:0] != 0};
+      |     ^~~~~~~~~~
+%Warning-CASEINCOMPLETE: /tmp/tmp365b3kp4/PPU/src/PPU.v:269:5: Case values incompletely covered (example pattern 0x0)
+  269 |     case ({oam_load, state, oam_ptr[1:0]})
+      |     ^~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:310:7: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  310 |       4'b00_0_?: state <= 2'b00;   
+      |       ^~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:311:7: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  311 |       4'b00_1_?: state <= 2'b01;   
+      |       ^~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:312:7: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  312 |       4'b01_?_1: state <= 2'b10;   
+      |       ^~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:315:7: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  315 |       4'b11_?_1: state <= 2'b10;   
+      |       ^~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:316:7: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  316 |       4'b11_?_0: state <= 2'b11;   
+      |       ^~~~~~~~~
+%Warning-CASEWITHX: /tmp/tmp365b3kp4/PPU/src/PPU.v:317:7: Use of x/? constant in case statement, (perhaps intended casex/casez)
+  317 |       4'b10_?_?: state <= 2'b10;   
+      |       ^~~~~~~~~
+%Warning-CASEINCOMPLETE: /tmp/tmp365b3kp4/PPU/src/PPU.v:309:7: Case values incompletely covered (example pattern 0x0)
+  309 |       case({state, (p == 7) && (oam_ptr[1:0] == 2'b11), oam_wrapped})
+      |       ^~~~
+%Error: Exiting due to 19 warning(s)
+
+
+
+## Block: aes_core
+
+
+### aes_core.v
+
+%Warning-UNOPTFLAT: /tmp/tmp365b3kp4/aes_core/src/aes_core.v:382:18: Signal unoptimizable: Feedback to clock or circular logic: 'aes.core.muxed_sboxw'
+  382 |   reg [31 : 0]   muxed_sboxw;
+      |                  ^~~~~~~~~~~
+                    ... Use "/* verilator lint_off UNOPTFLAT */" and lint_on around source to disable this message.
+                    /tmp/tmp365b3kp4/aes_core/src/aes_core.v:382:18:      Example path: aes.core.muxed_sboxw
+                    /tmp/tmp365b3kp4/aes_core/src/aes_core.v:1949:29:      Example path: ASSIGNW
+                    /tmp/tmp365b3kp4/aes_core/src/aes_core.v:383:18:      Example path: aes.core.new_sboxw
+                    /tmp/tmp365b3kp4/aes_core/src/aes_core.v:1650:3:      Example path: ALWAYS
+                    /tmp/tmp365b3kp4/aes_core/src/aes_core.v:1574:17:      Example path: aes.core.keymem.tmp_sboxw
+                    /tmp/tmp365b3kp4/aes_core/src/aes_core.v:487:3:      Example path: ALWAYS
+                    /tmp/tmp365b3kp4/aes_core/src/aes_core.v:382:18:      Example path: aes.core.muxed_sboxw
+%Error: Exiting due to 1 warning(s)
+
+
+### aes.v
+
+%Warning-UNOPTFLAT: /tmp/tmp365b3kp4/aes_core/src/aes.v:382:18: Signal unoptimizable: Feedback to clock or circular logic: 'aes.core.muxed_sboxw'
+  382 |   reg [31 : 0]   muxed_sboxw;
+      |                  ^~~~~~~~~~~
+                    ... Use "/* verilator lint_off UNOPTFLAT */" and lint_on around source to disable this message.
+                    /tmp/tmp365b3kp4/aes_core/src/aes.v:382:18:      Example path: aes.core.muxed_sboxw
+                    /tmp/tmp365b3kp4/aes_core/src/aes.v:1949:29:      Example path: ASSIGNW
+                    /tmp/tmp365b3kp4/aes_core/src/aes.v:383:18:      Example path: aes.core.new_sboxw
+                    /tmp/tmp365b3kp4/aes_core/src/aes.v:1650:3:      Example path: ALWAYS
+                    /tmp/tmp365b3kp4/aes_core/src/aes.v:1574:17:      Example path: aes.core.keymem.tmp_sboxw
+                    /tmp/tmp365b3kp4/aes_core/src/aes.v:487:3:      Example path: ALWAYS
+                    /tmp/tmp365b3kp4/aes_core/src/aes.v:382:18:      Example path: aes.core.muxed_sboxw
+%Error: Exiting due to 1 warning(s)
+
+
+
+## Block: wbqspiflash
+
+
+### wbqspiflash.v
+
+
+
+
+## Block: salsa20
+
+
+### salsa20.v
+
+%Warning-CASEINCOMPLETE: /tmp/tmp365b3kp4/salsa20/src/salsa20.v:1336:7: Case values incompletely covered (example pattern 0x5)
+ 1336 |       case (salsa20_ctrl_reg)
+      |       ^~~~
+                         ... Use "/* verilator lint_off CASEINCOMPLETE */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+
+
+## Block: usb_cdc_core
+
+
+### usbf_sie_rx.v
+
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:72:10: Cannot find include file: usbf_defs.v
+   72 | `include "usbf_defs.v"
+      |          ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:72:10: This may be because there's no search path specified with -I<dir>.
+   72 | `include "usbf_defs.v"
+      |          ^~~~~~~~~~~~~
+        ... Looked in:
+             usbf_defs.v
+             usbf_defs.v.v
+             usbf_defs.v.sv
+             obj_dir/usbf_defs.v
+             obj_dir/usbf_defs.v.v
+             obj_dir/usbf_defs.v.sv
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:165:15: Define or directive not defined: '`PID_OUT'
+  165 |               `PID_OUT, `PID_IN, `PID_SETUP, `PID_PING:
+      |               ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:165:23: syntax error, unexpected ',', expecting endcase
+  165 |               `PID_OUT, `PID_IN, `PID_SETUP, `PID_PING:
+      |                       ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:165:25: Define or directive not defined: '`PID_IN'
+  165 |               `PID_OUT, `PID_IN, `PID_SETUP, `PID_PING:
+      |                         ^~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:165:34: Define or directive not defined: '`PID_SETUP'
+  165 |               `PID_OUT, `PID_IN, `PID_SETUP, `PID_PING:
+      |                                  ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:165:46: Define or directive not defined: '`PID_PING'
+  165 |               `PID_OUT, `PID_IN, `PID_SETUP, `PID_PING:
+      |                                              ^~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:168:15: Define or directive not defined: '`PID_SOF'
+  168 |               `PID_SOF:
+      |               ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:171:15: Define or directive not defined: '`PID_DATA0'
+  171 |               `PID_DATA0, `PID_DATA1, `PID_DATA2, `PID_MDATA:
+      |               ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:171:27: Define or directive not defined: '`PID_DATA1'
+  171 |               `PID_DATA0, `PID_DATA1, `PID_DATA2, `PID_MDATA:
+      |                           ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:171:39: Define or directive not defined: '`PID_DATA2'
+  171 |               `PID_DATA0, `PID_DATA1, `PID_DATA2, `PID_MDATA:
+      |                                       ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:171:51: Define or directive not defined: '`PID_MDATA'
+  171 |               `PID_DATA0, `PID_DATA1, `PID_DATA2, `PID_MDATA:
+      |                                                   ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:176:15: Define or directive not defined: '`PID_ACK'
+  176 |               `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |               ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:176:25: Define or directive not defined: '`PID_NAK'
+  176 |               `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |                         ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:176:35: Define or directive not defined: '`PID_STALL'
+  176 |               `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |                                   ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:176:47: Define or directive not defined: '`PID_NYET'
+  176 |               `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |                                               ^~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:290:5: Define or directive not defined: '`PID_ACK'
+  290 |     `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |     ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:290:13: syntax error, unexpected ',', expecting endcase
+  290 |     `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |             ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:290:15: Define or directive not defined: '`PID_NAK'
+  290 |     `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |               ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:290:25: Define or directive not defined: '`PID_STALL'
+  290 |     `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |                         ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:290:37: Define or directive not defined: '`PID_NYET'
+  290 |     `PID_ACK, `PID_NAK, `PID_STALL, `PID_NYET:
+      |                                     ^~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:304:1: syntax error, unexpected always
+  304 | always @ (posedge clk_i or posedge rst_i)
+      | ^~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:316:5: syntax error, unexpected IDENTIFIER, expecting "'{"
+  316 | reg frame_valid_q;
+      |     ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:329:1: syntax error, unexpected always
+  329 | always @ (posedge clk_i or posedge rst_i)
+      | ^~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:339:5: syntax error, unexpected IDENTIFIER, expecting "'{"
+  339 | reg token_valid_q;
+      |     ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:352:1: syntax error, unexpected always
+  352 | always @ (posedge clk_i or posedge rst_i)
+      | ^~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:365:1: syntax error, unexpected always
+  365 | always @ (posedge clk_i or posedge rst_i)
+      | ^~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:378:1: syntax error, unexpected wire
+  378 | wire [7:0] input_data_w  = data_w;
+      | ^~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:384:13: syntax error, unexpected IDENTIFIER, expecting "'{"
+  384 | reg [15:0]  crc_sum_q;
+      |             ^~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:414:5: syntax error, unexpected IDENTIFIER, expecting "'{"
+  414 | reg data_complete_q;
+      |     ^~~~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:426:5: syntax error, unexpected IDENTIFIER, expecting "'{"
+  426 | reg data_zlp_q;
+      |     ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_rx.v:441:12: syntax error, unexpected IDENTIFIER, expecting "'{"
+  441 | reg [7:0]  data_q;
+      |            ^~~~~~
+%Error: Exiting due to 32 error(s)
+
+
+### usb_cdc_core.v
+
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usb_cdc_core.v:489:1: Cannot find file containing module: 'usbf_device_core'
+  489 | usbf_device_core
+      | ^~~~~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usb_cdc_core.v:489:1: This may be because there's no search path specified with -I<dir>.
+  489 | usbf_device_core
+      | ^~~~~~~~~~~~~~~~
+        ... Looked in:
+             usbf_device_core
+             usbf_device_core.v
+             usbf_device_core.sv
+             obj_dir/usbf_device_core
+             obj_dir/usbf_device_core.v
+             obj_dir/usbf_device_core.sv
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usb_cdc_core.v:1013:1: Cannot find file containing module: 'usb_desc_rom'
+ 1013 | usb_desc_rom
+      | ^~~~~~~~~~~~
+%Error: Exiting due to 3 error(s)
+
+
+### usbf_defs.v
+
+%Error: No top level module found
+%Error: Exiting due to 1 error(s)
+
+
+### usbf_device_core.v
+
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:124:10: Cannot find include file: usbf_defs.v
+  124 | `include "usbf_defs.v"
+      |          ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:124:10: This may be because there's no search path specified with -I<dir>.
+  124 | `include "usbf_defs.v"
+      |          ^~~~~~~~~~~~~
+        ... Looked in:
+             usbf_defs.v
+             usbf_defs.v.v
+             usbf_defs.v.sv
+             obj_dir/usbf_defs.v
+             obj_dir/usbf_defs.v.v
+             obj_dir/usbf_defs.v.sv
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:413:32: Define or directive not defined: '`PID_IN'
+  413 |             if (token_pid_w == `PID_IN)
+      |                                ^~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:413:39: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  413 |             if (token_pid_w == `PID_IN)
+      |                                       ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:428:37: Define or directive not defined: '`PID_PING'
+  428 |             else if (token_pid_w == `PID_PING)
+      |                                     ^~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:428:46: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  428 |             else if (token_pid_w == `PID_PING)
+      |                                              ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:435:37: Define or directive not defined: '`PID_OUT'
+  435 |             else if (token_pid_w == `PID_OUT)
+      |                                     ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:450:37: Define or directive not defined: '`PID_SETUP'
+  450 |             else if (token_pid_w == `PID_SETUP)
+      |                                     ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:473:29: Define or directive not defined: '`PID_DATA0'
+  473 |         if ((token_pid_w == `PID_DATA0 &&  ep_data_bit_r && !ep_iso_r) ||
+      |                             ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:474:29: Define or directive not defined: '`PID_DATA1'
+  474 |             (token_pid_w == `PID_DATA1 && !ep_data_bit_r && !ep_iso_r))
+      |                             ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:581:32: Define or directive not defined: '`PID_IN'
+  581 |             if (token_pid_w == `PID_IN)
+      |                                ^~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:581:39: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  581 |             if (token_pid_w == `PID_IN)
+      |                                       ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:587:34: Define or directive not defined: '`PID_STALL'
+  587 |                     tx_pid_r   = `PID_STALL;
+      |                                  ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:587:44: syntax error, unexpected ';', expecting TYPE-IDENTIFIER
+  587 |                     tx_pid_r   = `PID_STALL;
+      |                                            ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:594:50: Define or directive not defined: '`PID_DATA1'
+  594 |                     tx_pid_r   = ep_data_bit_r ? `PID_DATA1 : `PID_DATA0;
+      |                                                  ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:594:61: syntax error, unexpected ':', expecting TYPE-IDENTIFIER
+  594 |                     tx_pid_r   = ep_data_bit_r ? `PID_DATA1 : `PID_DATA0;
+      |                                                             ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:594:63: Define or directive not defined: '`PID_DATA0'
+  594 |                     tx_pid_r   = ep_data_bit_r ? `PID_DATA1 : `PID_DATA0;
+      |                                                               ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:600:34: Define or directive not defined: '`PID_NAK'
+  600 |                     tx_pid_r   = `PID_NAK;
+      |                                  ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:600:42: syntax error, unexpected ';', expecting TYPE-IDENTIFIER
+  600 |                     tx_pid_r   = `PID_NAK;
+      |                                          ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:606:13: syntax error, unexpected else, expecting endcase
+  606 |             else if (token_pid_w == `PID_PING)
+      |             ^~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:606:37: Define or directive not defined: '`PID_PING'
+  606 |             else if (token_pid_w == `PID_PING)
+      |                                     ^~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:612:34: Define or directive not defined: '`PID_STALL'
+  612 |                     tx_pid_r   = `PID_STALL;
+      |                                  ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:612:44: syntax error, unexpected ';', expecting TYPE-IDENTIFIER
+  612 |                     tx_pid_r   = `PID_STALL;
+      |                                            ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:618:34: Define or directive not defined: '`PID_ACK'
+  618 |                     tx_pid_r   = `PID_ACK;
+      |                                  ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:624:34: Define or directive not defined: '`PID_NAK'
+  624 |                     tx_pid_r   = `PID_NAK;
+      |                                  ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:648:30: Define or directive not defined: '`PID_STALL'
+  648 |                 tx_pid_r   = `PID_STALL;
+      |                              ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:651:39: Define or directive not defined: '`PID_DATA0'
+  651 |             else if ( (token_pid_w == `PID_DATA0 && ep_data_bit_r) ||
+      |                                       ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:652:39: Define or directive not defined: '`PID_DATA1'
+  652 |                       (token_pid_w == `PID_DATA1 && !ep_data_bit_r) )
+      |                                       ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:656:30: Define or directive not defined: '`PID_ACK'
+  656 |                 tx_pid_r   = `PID_ACK;
+      |                              ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:662:30: Define or directive not defined: '`PID_NAK'
+  662 |                 tx_pid_r   = `PID_NAK;
+      |                              ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:668:30: Define or directive not defined: '`PID_ACK'
+  668 |                 tx_pid_r   = `PID_ACK;
+      |                              ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:719:73: Define or directive not defined: '`PID_SETUP'
+  719 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_SETUP) && (token_ep_w == 4'd0))
+      |                                                                         ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:719:83: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  719 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_SETUP) && (token_ep_w == 4'd0))
+      |                                                                                   ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:760:73: Define or directive not defined: '`PID_SETUP'
+  760 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_SETUP) && (token_ep_w == 4'd0))
+      |                                                                         ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:760:83: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  760 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_SETUP) && (token_ep_w == 4'd0))
+      |                                                                                   ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:762:73: Define or directive not defined: '`PID_IN'
+  762 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_IN) && (token_ep_w == 4'd0))
+      |                                                                         ^~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:770:73: Define or directive not defined: '`PID_SETUP'
+  770 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_SETUP) && (token_ep_w == 4'd0))
+      |                                                                         ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:770:83: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  770 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_SETUP) && (token_ep_w == 4'd0))
+      |                                                                                   ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:772:73: Define or directive not defined: '`PID_OUT'
+  772 | else if ((state_q == STATE_RX_IDLE) && token_valid_w && (token_pid_w == `PID_OUT) && (token_ep_w == 4'd0))
+      |                                                                         ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:804:39: Define or directive not defined: '`PID_DATA0'
+  804 |             else if ( (token_pid_w == `PID_DATA0 && ep_data_bit_r) ||
+      |                                       ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:804:50: syntax error, unexpected &&, expecting TYPE-IDENTIFIER
+  804 |             else if ( (token_pid_w == `PID_DATA0 && ep_data_bit_r) ||
+      |                                                  ^~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:805:39: Define or directive not defined: '`PID_DATA1'
+  805 |                       (token_pid_w == `PID_DATA1 && !ep_data_bit_r) )
+      |                                       ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:824:32: Define or directive not defined: '`PID_SETUP'
+  824 |             if (token_pid_w == `PID_SETUP)
+      |                                ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:824:42: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  824 |             if (token_pid_w == `PID_SETUP)
+      |                                          ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:828:51: Define or directive not defined: '`PID_ACK'
+  828 |         else if (rx_handshake_w && token_pid_w == `PID_ACK)
+      |                                                   ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:828:59: syntax error, unexpected ')', expecting TYPE-IDENTIFIER
+  828 |         else if (rx_handshake_w && token_pid_w == `PID_ACK)
+      |                                                           ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:885:5: syntax error, unexpected IDENTIFIER, expecting "'{"
+  885 | reg intr_q;
+      |     ^~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:979:5: Define or directive not defined: '`PID_OUT'
+  979 |     `PID_OUT:
+      |     ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:979:13: syntax error, unexpected ':', expecting endcase
+  979 |     `PID_OUT:
+      |             ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_device_core.v:981:5: Define or directive not defined: '`PID_IN'
+  981 |     `PID_IN:
+      |     ^~~~~~~
+%Error: Exiting due to too many errors encountered; --error-limit=50
+
+
+### usb_desc_rom.v
+
+
+
+### usbf_crc16.v
+
+
+
+### usbf_sie_tx.v
+
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:66:10: Cannot find include file: usbf_defs.v
+   66 | `include "usbf_defs.v"
+      |          ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:66:10: This may be because there's no search path specified with -I<dir>.
+   66 | `include "usbf_defs.v"
+      |          ^~~~~~~~~~~~~
+        ... Looked in:
+             usbf_defs.v
+             usbf_defs.v.v
+             usbf_defs.v.sv
+             obj_dir/usbf_defs.v
+             obj_dir/usbf_defs.v.v
+             obj_dir/usbf_defs.v.sv
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:106:5: Define or directive not defined: '`PID_MDATA'
+  106 |     `PID_MDATA, `PID_DATA2, `PID_DATA0, `PID_DATA1:
+      |     ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:106:15: syntax error, unexpected ',', expecting endcase
+  106 |     `PID_MDATA, `PID_DATA2, `PID_DATA0, `PID_DATA1:
+      |               ^
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:106:17: Define or directive not defined: '`PID_DATA2'
+  106 |     `PID_MDATA, `PID_DATA2, `PID_DATA0, `PID_DATA1:
+      |                 ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:106:29: Define or directive not defined: '`PID_DATA0'
+  106 |     `PID_MDATA, `PID_DATA2, `PID_DATA0, `PID_DATA1:
+      |                             ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:106:41: Define or directive not defined: '`PID_DATA1'
+  106 |     `PID_MDATA, `PID_DATA2, `PID_DATA0, `PID_DATA1:
+      |                                         ^~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/usb_cdc_core/src/usbf_sie_tx.v:112:13: syntax error, unexpected ':', expecting clocking
+  112 |     default :
+      |             ^
+%Error: Exiting due to 8 error(s)
+
+
+
+## Block: io_placer
+
+
+### defines.v
+
+%Error: No top level module found
+%Error: Exiting due to 1 error(s)
+
+
+### user_proj_example.v
+
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example.v:65:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   65 |     input  [`MPRJ_IO_PADS-1:0] io_in,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example.v:66:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   66 |     output [`MPRJ_IO_PADS-1:0] io_out,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example.v:67:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   67 |     output [`MPRJ_IO_PADS-1:0] io_oeb,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example.v:75:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   75 |     wire [`MPRJ_IO_PADS-1:0] io_in;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example.v:76:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   76 |     wire [`MPRJ_IO_PADS-1:0] io_out;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example.v:77:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   77 |     wire [`MPRJ_IO_PADS-1:0] io_oeb;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example.v:95:23: Define or directive not defined: '`MPRJ_IO_PADS'
+   95 |     assign io_oeb = {(`MPRJ_IO_PADS-1){rst}};
+      |                       ^~~~~~~~~~~~~
+%Error: Exiting due to 7 error(s)
+
+
+### user_project_wrapper.v
+
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_project_wrapper.v:64:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   64 |     input  [`MPRJ_IO_PADS-1:0] io_in,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_project_wrapper.v:65:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   65 |     output [`MPRJ_IO_PADS-1:0] io_out,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_project_wrapper.v:66:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   66 |     output [`MPRJ_IO_PADS-1:0] io_oeb,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_project_wrapper.v:72:12: Define or directive not defined: '`MPRJ_IO_PADS'
+   72 |     inout [`MPRJ_IO_PADS-10:0] analog_io,
+      |            ^~~~~~~~~~~~~
+%Error: Exiting due to 4 error(s)
+
+
+### user_proj_example2.v
+
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example2.v:64:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   64 |     input  [`MPRJ_IO_PADS-1:0] io_in,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example2.v:65:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   65 |     output [`MPRJ_IO_PADS-1:0] io_out,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example2.v:66:13: Define or directive not defined: '`MPRJ_IO_PADS'
+   66 |     output [`MPRJ_IO_PADS-1:0] io_oeb,
+      |             ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example2.v:74:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   74 |     wire [`MPRJ_IO_PADS-1:0] io_in;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example2.v:75:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   75 |     wire [`MPRJ_IO_PADS-1:0] io_out;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example2.v:76:11: Define or directive not defined: '`MPRJ_IO_PADS'
+   76 |     wire [`MPRJ_IO_PADS-1:0] io_oeb;
+      |           ^~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/io_placer/src/user_proj_example2.v:94:23: Define or directive not defined: '`MPRJ_IO_PADS'
+   94 |     assign io_oeb = {(`MPRJ_IO_PADS-1){rst}};
+      |                       ^~~~~~~~~~~~~
+%Error: Exiting due to 7 error(s)
+
+
+
+## Block: zipdiv
+
+
+### zipdiv.v
+
+
+
+
+## Block: aes
+
+
+### aes.v
+
+%Warning-UNOPTFLAT: /tmp/tmp365b3kp4/aes/src/aes.v:382:18: Signal unoptimizable: Feedback to clock or circular logic: 'aes.core.muxed_sboxw'
+  382 |   reg [31 : 0]   muxed_sboxw;
+      |                  ^~~~~~~~~~~
+                    ... Use "/* verilator lint_off UNOPTFLAT */" and lint_on around source to disable this message.
+                    /tmp/tmp365b3kp4/aes/src/aes.v:382:18:      Example path: aes.core.muxed_sboxw
+                    /tmp/tmp365b3kp4/aes/src/aes.v:1949:29:      Example path: ASSIGNW
+                    /tmp/tmp365b3kp4/aes/src/aes.v:383:18:      Example path: aes.core.new_sboxw
+                    /tmp/tmp365b3kp4/aes/src/aes.v:1650:3:      Example path: ALWAYS
+                    /tmp/tmp365b3kp4/aes/src/aes.v:1574:17:      Example path: aes.core.keymem.tmp_sboxw
+                    /tmp/tmp365b3kp4/aes/src/aes.v:487:3:      Example path: ALWAYS
+                    /tmp/tmp365b3kp4/aes/src/aes.v:382:18:      Example path: aes.core.muxed_sboxw
+%Error: Exiting due to 1 warning(s)
+
+
+
+## Block: picorv32a
+
+
+### picorv32a.v
+                                                                    : ... Top module 'picorv32_regs'
+ 2169 | module picorv32_regs (
+      |        ^~~~~~~~~~~~~
+                                                                    : ... Top module 'picorv32_axi'
+ 2512 | module picorv32_axi #(
+      |        ^~~~~~~~~~~~
+                                                                    : ... Top module 'picorv32_wb'
+ 2810 | module picorv32_wb #(
+      |        ^~~~~~~~~~~
+
+%Warning-MULTITOP: /tmp/tmp365b3kp4/picorv32a/src/picorv32a.v:2512:8: Multiple top level modules
+                                                                    : ... Suggest see manual; fix the duplicates, or use --top-module to select top.
+                   ... Use "/* verilator lint_off MULTITOP */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+
+
+## Block: cell_inverter
+
+
+### inverter.v
+
+
+
+
+## Block: regfile_2r1w
+
+
+### regfile_2r1w.v
+
+%Error: /tmp/tmp365b3kp4/regfile_2r1w/src/regfile_2r1w.v:26:1: Cannot find file containing module: 'mem_1r1w'
+   26 | mem_1r1w #(.DEPTH_LOG2(DEPTH_LOG2), .WIDTH(WIDTH)) lane0(
+      | ^~~~~~~~
+%Error: /tmp/tmp365b3kp4/regfile_2r1w/src/regfile_2r1w.v:26:1: This may be because there's no search path specified with -I<dir>.
+   26 | mem_1r1w #(.DEPTH_LOG2(DEPTH_LOG2), .WIDTH(WIDTH)) lane0(
+      | ^~~~~~~~
+        ... Looked in:
+             mem_1r1w
+             mem_1r1w.v
+             mem_1r1w.sv
+             obj_dir/mem_1r1w
+             obj_dir/mem_1r1w.v
+             obj_dir/mem_1r1w.sv
+%Error: /tmp/tmp365b3kp4/regfile_2r1w/src/regfile_2r1w.v:40:1: Cannot find file containing module: 'mem_1r1w'
+   40 | mem_1r1w #(.DEPTH_LOG2(DEPTH_LOG2), .WIDTH(WIDTH)) lane1(
+      | ^~~~~~~~
+%Error: Exiting due to 3 error(s)
+
+
+
+## Block: caravel_user_project_example_full
+
+
+
+## Block: mem_1r1w
+
+
+### mem_1r1w.v
+
+
+
+
+## Block: manual_macro_placement_test
+
+
+### design.v
+
+%Error: /tmp/tmp365b3kp4/manual_macro_placement_test/src/design.v:38:5: Cannot find file containing module: 'spm'
+   38 |     spm spm_inst_0 (.clk(clk1), .rst(rst1), .x(x1), .y(y1), .p(p1));
+      |     ^~~
+%Error: /tmp/tmp365b3kp4/manual_macro_placement_test/src/design.v:38:5: This may be because there's no search path specified with -I<dir>.
+   38 |     spm spm_inst_0 (.clk(clk1), .rst(rst1), .x(x1), .y(y1), .p(p1));
+      |     ^~~
+        ... Looked in:
+             spm
+             spm.v
+             spm.sv
+             obj_dir/spm
+             obj_dir/spm.v
+             obj_dir/spm.sv
+%Error: /tmp/tmp365b3kp4/manual_macro_placement_test/src/design.v:39:5: Cannot find file containing module: 'spm'
+   39 |     spm spm_inst_1 (.clk(clk2), .rst(rst2), .x(x2), .y(y2), .p(p2));
+      |     ^~~
+%Error: Exiting due to 3 error(s)
+
+
+
+## Block: inverter
+
+
+### inverter.v
+
+
+
+
+## Block: double_height
+
+
+### spm.v
+
+%Error: /tmp/tmp365b3kp4/double_height/src/spm.v:34:5: Cannot find file containing module: 'dummy_doubleheight'
+   34 |     dummy_doubleheight longboye();
+      |     ^~~~~~~~~~~~~~~~~~
+%Error: /tmp/tmp365b3kp4/double_height/src/spm.v:34:5: This may be because there's no search path specified with -I<dir>.
+   34 |     dummy_doubleheight longboye();
+      |     ^~~~~~~~~~~~~~~~~~
+        ... Looked in:
+             dummy_doubleheight
+             dummy_doubleheight.v
+             dummy_doubleheight.sv
+             obj_dir/dummy_doubleheight
+             obj_dir/dummy_doubleheight.v
+             obj_dir/dummy_doubleheight.sv
+%Error: Exiting due to 2 error(s)
+
+
+
+## Block: s44
+
+
+### lut_s44.v
+
+%Error: /tmp/tmp365b3kp4/s44/src/lut_s44.v:30:1: Cannot find file containing module: 'lut'
+   30 | lut #(.INPUTS(4)) first_lut (
+      | ^~~
+%Error: /tmp/tmp365b3kp4/s44/src/lut_s44.v:30:1: This may be because there's no search path specified with -I<dir>.
+   30 | lut #(.INPUTS(4)) first_lut (
+      | ^~~
+        ... Looked in:
+             lut
+             lut.v
+             lut.sv
+             obj_dir/lut
+             obj_dir/lut.v
+             obj_dir/lut.sv
+%Error: /tmp/tmp365b3kp4/s44/src/lut_s44.v:39:1: Cannot find file containing module: 'lut'
+   39 | lut #(.INPUTS(4)) second_lut (
+      | ^~~
+%Error: Exiting due to 3 error(s)
+
+
+### lut.v
+
+
+
+
+## Block: xtea
+
+
+### xtea.v
+
+%Warning-WIDTH: /tmp/tmp365b3kp4/xtea/src/xtea.v:86:19: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's CONST '4'bxxxx' generates 4 bits.
+                                                      : ... In instance xtea
+   86 |    default: state = 4'bxxxx;
+      |                   ^
+                ... Use "/* verilator lint_off WIDTH */" and lint_on around source to disable this message.
+%Warning-WIDTH: /tmp/tmp365b3kp4/xtea/src/xtea.v:102:15: Operator ASSIGN expects 2 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                                                       : ... In instance xtea
+  102 |   selectslice = 1'b0;
+      |               ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/xtea/src/xtea.v:130:20: Operator ASSIGN expects 2 bits on the Assign RHS, but Assign RHS's AND generates 32 bits.
+                                                       : ... In instance xtea
+  130 |    s5: selectslice = (sum >> 32'd11 & 32'd3);
+      |                    ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/xtea/src/xtea.v:139:20: Operator ASSIGN expects 2 bits on the Assign RHS, but Assign RHS's AND generates 32 bits.
+                                                       : ... In instance xtea
+  139 |    s8: selectslice = (sum & 32'd3);
+      |                    ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/xtea/src/xtea.v:151:21: Operator ASSIGN expects 2 bits on the Assign RHS, but Assign RHS's AND generates 32 bits.
+                                                       : ... In instance xtea
+  151 |    s10: selectslice = (sum & 32'd3);
+      |                     ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/xtea/src/xtea.v:160:42: Operator ASSIGN expects 2 bits on the Assign RHS, but Assign RHS's AND generates 32 bits.
+                                                       : ... In instance xtea
+  160 |                         s13: selectslice = (sum >> 32'd11 & 32'd3);
+      |                                          ^
+%Error: Exiting due to 6 warning(s)
+
+
+
+## Block: APU
+
+
+### APU.v
+
+
+
+
+## Block: BM64
+
+
+### BM64.v
+
+%Warning-WIDTH: /tmp/tmp365b3kp4/BM64/src/BM64.v:352:14: Operator ASSIGNDLY expects 5 bits on the Assign RHS, but Assign RHS's VARREF 'pNumCycles' generates 32 or 9 bits.
+                                                       : ... In instance BM64
+  352 |         Cntr <=  pNumCycles;
+      |              ^~
+                ... Use "/* verilator lint_off WIDTH */" and lint_on around source to disable this message.
+%Warning-WIDTH: /tmp/tmp365b3kp4/BM64/src/BM64.v:369:12: Operator ASSIGNW expects 260 bits on the Assign RHS, but Assign RHS's REPLICATE generates 263 bits.
+                                                       : ... In instance BM64
+  369 | assign Mx8 = {A, 3'b0};
+      |            ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/BM64/src/BM64.v:370:12: Operator ASSIGNW expects 260 bits on the Assign RHS, but Assign RHS's REPLICATE generates 262 bits.
+                                                       : ... In instance BM64
+  370 | assign Mx4 = {A, 2'b0};
+      |            ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/BM64/src/BM64.v:371:12: Operator ASSIGNW expects 260 bits on the Assign RHS, but Assign RHS's REPLICATE generates 261 bits.
+                                                       : ... In instance BM64
+  371 | assign Mx2 = {A, 1'b0};
+      |            ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/BM64/src/BM64.v:492:19: Operator ADD expects 260 bits on the RHS, but RHS's VARREF 'Ci_B' generates 1 bits.
+                                                       : ... In instance BM64
+  492 | assign T = Hi + B + Ci_B;
+      |                   ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/BM64/src/BM64.v:493:19: Operator ADD expects 260 bits on the RHS, but RHS's VARREF 'Ci_C' generates 1 bits.
+                                                       : ... In instance BM64
+  493 | assign S =  T + C + Ci_C;
+      |                   ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/BM64/src/BM64.v:504:14: Operator ASSIGNDLY expects 516 bits on the Assign RHS, but Assign RHS's VARREF 'R' generates 256 bits.
+                                                       : ... In instance BM64
+  504 |         Prod <=  R;
+      |              ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:376:19: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  376 | always @(*) Booth <= {Prod[3:0], Guard};     
+      |                   ^~
+                  *** See the manual before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:418:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  418 |         5'b11111 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:417:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  417 |         5'b11110 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:416:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  416 |         5'b11101 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:415:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  415 |         5'b11100 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:414:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  414 |         5'b11011 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:413:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  413 |         5'b11010 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:412:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  412 |         5'b11001 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:411:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  411 |         5'b11000 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:410:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  410 |         5'b10111 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:409:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  409 |         5'b10110 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:408:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  408 |         5'b10101 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:407:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  407 |         5'b10100 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:406:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  406 |         5'b10011 : {PnM_B, M_Sel_B, En_B} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:405:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  405 |         5'b10010 : {PnM_B, M_Sel_B, En_B} <= 3'b111;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:404:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  404 |         5'b10001 : {PnM_B, M_Sel_B, En_B} <= 3'b111;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:403:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  403 |         5'b10000 : {PnM_B, M_Sel_B, En_B} <= 3'b111;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:402:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  402 |         5'b01111 : {PnM_B, M_Sel_B, En_B} <= 3'b011;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:401:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  401 |         5'b01110 : {PnM_B, M_Sel_B, En_B} <= 3'b011;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:400:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  400 |         5'b01101 : {PnM_B, M_Sel_B, En_B} <= 3'b011;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:399:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  399 |         5'b01100 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:398:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  398 |         5'b01011 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:397:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  397 |         5'b01010 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:396:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  396 |         5'b01001 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:395:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  395 |         5'b01000 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:394:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  394 |         5'b00111 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:393:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  393 |         5'b00110 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:392:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  392 |         5'b00101 : {PnM_B, M_Sel_B, En_B} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:391:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  391 |         5'b00100 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:390:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  390 |         5'b00011 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:389:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  389 |         5'b00010 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:388:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  388 |         5'b00001 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:387:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  387 |         5'b00000 : {PnM_B, M_Sel_B, En_B} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:459:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  459 |         5'b11111 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:458:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  458 |         5'b11110 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:457:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  457 |         5'b11101 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:456:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  456 |         5'b11100 : {PnM_C, M_Sel_C, En_C} <= 3'b111;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:455:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  455 |         5'b11011 : {PnM_C, M_Sel_C, En_C} <= 3'b111;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:454:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  454 |         5'b11010 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:453:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  453 |         5'b11001 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:452:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  452 |         5'b11000 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:451:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  451 |         5'b10111 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:450:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  450 |         5'b10110 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:449:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  449 |         5'b10101 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:448:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  448 |         5'b10100 : {PnM_C, M_Sel_C, En_C} <= 3'b111;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:447:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  447 |         5'b10011 : {PnM_C, M_Sel_C, En_C} <= 3'b111;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:446:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  446 |         5'b10010 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:445:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  445 |         5'b10001 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:444:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  444 |         5'b10000 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:443:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  443 |         5'b01111 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:442:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  442 |         5'b01110 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:441:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  441 |         5'b01101 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:440:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  440 |         5'b01100 : {PnM_C, M_Sel_C, En_C} <= 3'b011;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:439:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  439 |         5'b01011 : {PnM_C, M_Sel_C, En_C} <= 3'b011;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:438:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  438 |         5'b01010 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:437:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  437 |         5'b01001 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:436:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  436 |         5'b01000 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:435:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  435 |         5'b00111 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:434:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  434 |         5'b00110 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:433:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  433 |         5'b00101 : {PnM_C, M_Sel_C, En_C} <= 3'b101;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:432:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  432 |         5'b00100 : {PnM_C, M_Sel_C, En_C} <= 3'b011;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:431:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  431 |         5'b00011 : {PnM_C, M_Sel_C, En_C} <= 3'b011;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:430:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  430 |         5'b00010 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:429:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  429 |         5'b00001 : {PnM_C, M_Sel_C, En_C} <= 3'b001;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:428:43: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  428 |         5'b00000 : {PnM_C, M_Sel_C, En_C} <= 3'b000;  
+      |                                           ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:472:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  472 |         3'b111  : {Ci_B, B} <= {1'b1, ~Mx8};
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:473:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  473 |         default : {Ci_B, B} <= 0;
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:471:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  471 |         3'b101  : {Ci_B, B} <= {1'b1, ~Mx4};
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:470:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  470 |         3'b011  : {Ci_B, B} <= {1'b0,  Mx8};
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:469:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  469 |         3'b001  : {Ci_B, B} <= {1'b0,  Mx4};
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:485:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  485 |         3'b111  : {Ci_C, C} <= {1'b1, ~Mx2};
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:486:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  486 |         default : {Ci_C, C} <= 0;
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:484:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  484 |         3'b101  : {Ci_C, C} <= {1'b1, ~Mx1};
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:483:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  483 |         3'b011  : {Ci_C, C} <= {1'b0,  Mx2};
+      |                             ^~
+%Warning-COMBDLY: /tmp/tmp365b3kp4/BM64/src/BM64.v:482:29: Delayed assignments (<=) in non-clocked (non flop or latch) block
+                                                         : ... Suggest blocking assignments (=)
+  482 |         3'b001  : {Ci_C, C} <= {1'b0,  Mx1};
+      |                             ^~
+%Error: Exiting due to 82 warning(s)
+
+
+
+## Block: y_huff
+
+
+### y_huff.v
+
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:390:48: Operator SHIFTR expects 32 bits on the LHS, but LHS's VARREF 'Y11_JPEG_bits' generates 26 bits.
+                                                           : ... In instance y_huff
+  390 |   JPEG_bs <= (old_orc_2 >= 16) ? Y11_JPEG_bits >> 10 : Y11_JPEG_bits << 6;
+      |                                                ^~
+                ... Use "/* verilator lint_off WIDTH */" and lint_on around source to disable this message.
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:390:70: Operator SHIFTL expects 32 bits on the LHS, but LHS's VARREF 'Y11_JPEG_bits' generates 26 bits.
+                                                           : ... In instance y_huff
+  390 |   JPEG_bs <= (old_orc_2 >= 16) ? Y11_JPEG_bits >> 10 : Y11_JPEG_bits << 6;
+      |                                                                      ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:392:52: Operator SHIFTL expects 32 bits on the LHS, but LHS's VARREF 'Y11_JPEG_bits_1' generates 26 bits.
+                                                           : ... In instance y_huff
+  392 |   JPEG_ro_bs <= (Y12_edge <= 16) ? Y11_JPEG_bits_1 << 16 : Y11_JPEG_bits_1;
+      |                                                    ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:392:34: Operator COND expects 32 bits on the Conditional False, but Conditional False's VARREF 'Y11_JPEG_bits_1' generates 26 bits.
+                                                           : ... In instance y_huff
+  392 |   JPEG_ro_bs <= (Y12_edge <= 16) ? Y11_JPEG_bits_1 << 16 : Y11_JPEG_bits_1;
+      |                                  ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:404:42: Operator GTE expects 32 or 5 bits on the LHS, but LHS's VARREF 'Y12_Huff_shift_1' generates 4 bits.
+                                                           : ... In instance y_huff
+  404 |   Y12_JPEG_bits[25] <= (Y12_Huff_shift_1 >= 16) ? Y12_JPEG_LSBs_4[25] : Y12_Huff_2[15];
+      |                                          ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:459:38: Operator SHIFTL expects 26 bits on the LHS, but LHS's VARREF 'Y12_JPEG_LSBs_3' generates 10 bits.
+                                                           : ... In instance y_huff
+  459 |   Y12_JPEG_LSBs_4 <= Y12_JPEG_LSBs_3 << Y12_Huff_shift;
+      |                                      ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:472:38: Operator SHIFTL expects 22 bits on the LHS, but LHS's VARREF 'Y11_JPEG_LSBs_2' generates 11 bits.
+                                                           : ... In instance y_huff
+  472 |   Y11_JPEG_LSBs_3 <= Y11_JPEG_LSBs_2 << Y11_Huff_shift;
+      |                                      ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:487:18: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's SUB generates 32 or 5 bits.
+                                                           : ... In instance y_huff
+  487 |   Y12_Huff_shift <= 16 - Y12_Huff_count;
+      |                  ^~
+%Warning-CMPCONST: /tmp/tmp365b3kp4/y_huff/src/y_huff.v:2250:34: Comparison is constant due to limited range
+                                                               : ... In instance y_huff
+ 2250 |  else if (enable_module && orc_8 <= 31) 
+      |                                  ^~
+%Error: Exiting due to 9 warning(s)
+
+
+
+## Block: usb
+
+
+### usb2p0_core.v
+                                                               : ... Top module 'usb'
+   24 | module usb(
+      |        ^~~
+                                                               : ... Top module 'usb_ep'
+  365 | module usb_ep(
+      |        ^~~~~~
+                                                               : ... Top module 'usb_ep_banked'
+  517 | module usb_ep_banked(
+      |        ^~~~~~~~~~~~~
+
+%Warning-MULTITOP: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:365:8: Multiple top level modules
+                                                               : ... Suggest see manual; fix the duplicates, or use --top-module to select top.
+                   ... Use "/* verilator lint_off MULTITOP */" and lint_on around source to disable this message.
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1199:23: Operator EQ expects 19 bits on the RHS, but RHS's CONST '1'h0' generates 1 bits.
+                                                              : ... In instance usb.recv.reset_detect
+ 1199 | assign usb_rst = cntr == 1'b0;
+      |                       ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1203:14: Operator ASSIGNDLY expects 19 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                                                              : ... In instance usb.recv.reset_detect
+ 1203 |         cntr <= 1'b0;
+      |              ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1183:14: Operator ASSIGNDLY expects 7 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                                                              : ... In instance usb.recv.sync_detect
+ 1183 |         data <= 1'd0;
+      |              ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1129:22: Operator EQ expects 2 bits on the RHS, but RHS's CONST '1'h0' generates 1 bits.
+                                                              : ... In instance usb.recv.clk_rcvr
+ 1129 | assign strobe = cntr == 1'b0;
+      |                      ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1133:14: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                                                              : ... In instance usb.recv.clk_rcvr
+ 1133 |         cntr <= 1'b0;
+      |              ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1139:18: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's CONST '1'h1' generates 1 bits.
+                                                              : ... In instance usb.recv.clk_rcvr
+ 1139 |             cntr <= 1'b1;
+      |                  ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:705:20: Operator ASSIGN expects 9 bits on the Assign RHS, but Assign RHS's REPLICATE generates 8 bits.
+                                                             : ... In instance usb.recv.sm
+  705 |         next_shift = { 7'b1, din };
+      |                    ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:751:14: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's CONST '1'sbx' generates 1 bits.
+                                                             : ... In instance usb.recv.sm
+  751 |         xpid <= 1'sbx;
+      |              ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:752:15: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's CONST '1'sbx' generates 1 bits.
+                                                             : ... In instance usb.recv.sm
+  752 |         xdata <= 1'sbx;
+      |               ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:959:36: Operator EQ expects 7 bits on the RHS, but RHS's CONST '1'h0' generates 1 bits.
+                                                             : ... In instance usb.tx
+  959 | wire tx_data_empty = (tx_data[8:2] == 1'b0);
+      |                                    ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1022:27: Operator ASSIGNDLY expects 3 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                                                              : ... In instance usb.tx
+ 1022 |         bit_stuff_counter <= 1'b0;
+      |                           ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:1025:31: Operator ASSIGNDLY expects 3 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                                                              : ... In instance usb.tx
+ 1025 |             bit_stuff_counter <= 1'b0;
+      |                               ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:843:40: Operator EQ expects 3 bits on the RHS, but RHS's CONST '1'h0' generates 1 bits.
+                                                             : ... In instance usb.recv
+  843 | assign short_idle = short_idle_counter == 1'b0;
+      |                                        ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:847:33: Operator NEQ expects 3 bits on the RHS, but RHS's CONST '1'h0' generates 1 bits.
+                                                             : ... In instance usb.recv
+  847 |     else if (short_idle_counter != 1'b0)
+      |                                 ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:156:35: Operator NEQ expects 7 bits on the RHS, but RHS's CONST '1'h0' generates 1 bits.
+                                                             : ... In instance usb
+  156 | wire token_active = token_timeout != 1'b0;
+      |                                   ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:165:18: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's CONST '1'sbx' generates 1 bits.
+                                                             : ... In instance usb
+  165 |         endpoint <= 1'sbx;
+      |                  ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:169:23: Operator ASSIGNDLY expects 7 bits on the Assign RHS, but Assign RHS's CONST '1'h0' generates 1 bits.
+                                                             : ... In instance usb
+  169 |         token_timeout <= 1'b0;
+      |                       ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:175:27: Operator NEQ expects 7 bits on the RHS, but RHS's CONST '1'h0' generates 1 bits.
+                                                             : ... In instance usb
+  175 |         if (token_timeout != 1'b0)
+      |                           ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:179:22: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's CONST '1'sbx' generates 1 bits.
+                                                             : ... In instance usb
+  179 |             endpoint <= 1'sbx;
+      |                      ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:232:42: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's CONST '1'sbx' generates 1 bits.
+                                                             : ... In instance usb
+  232 |                                 endpoint <= 1'sbx;
+      |                                          ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:245:38: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's CONST '1'sbx' generates 1 bits.
+                                                             : ... In instance usb
+  245 |                             endpoint <= 1'sbx;
+      |                                      ^~
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:595:40: Operator COND expects 8 bits on the Conditional True, but Conditional True's VARREF 'ep_in_cnt_1' generates 7 bits.
+                                                             : ... In instance usb_ep_banked
+  595 |         ctrl_rd_data[15:8] = ep_in_bank? ep_in_cnt_1: ep_in_cnt_0;
+      |                                        ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:595:40: Operator COND expects 8 bits on the Conditional False, but Conditional False's VARREF 'ep_in_cnt_0' generates 7 bits.
+                                                             : ... In instance usb_ep_banked
+  595 |         ctrl_rd_data[15:8] = ep_in_bank? ep_in_cnt_1: ep_in_cnt_0;
+      |                                        ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:596:27: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's REPLICATE generates 6 bits.
+                                                             : ... In instance usb_ep_banked
+  596 |         ctrl_rd_data[7:0] = { ep_in_bank, ep_in_toggle, ep_in_stall, 1'b0, ep_in_empty, !ep_in_empty && ep_in_toggle == ep_in_bank };
+      |                           ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:598:28: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'ep_out_cnt' generates 7 bits.
+                                                             : ... In instance usb_ep_banked
+  598 |         ctrl_rd_data[15:8] = ep_out_cnt;
+      |                            ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:599:27: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's REPLICATE generates 5 bits.
+                                                             : ... In instance usb_ep_banked
+  599 |         ctrl_rd_data[7:0] = { ep_out_toggle, ep_out_stall, ep_setup, ep_out_empty, ep_out_full };
+      |                           ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:441:28: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'ep_in_cnt' generates 7 bits.
+                                                             : ... In instance usb_ep
+  441 |         ctrl_rd_data[15:8] = ep_in_cnt;
+      |                            ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:442:27: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's REPLICATE generates 5 bits.
+                                                             : ... In instance usb_ep
+  442 |         ctrl_rd_data[7:0] = { ep_in_toggle, ep_in_stall, 1'b0, !ep_in_full, ep_in_full };
+      |                           ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:444:28: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's VARREF 'ep_out_cnt' generates 7 bits.
+                                                             : ... In instance usb_ep
+  444 |         ctrl_rd_data[15:8] = ep_out_cnt;
+      |                            ^
+%Warning-WIDTH: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:445:27: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's REPLICATE generates 5 bits.
+                                                             : ... In instance usb_ep
+  445 |         ctrl_rd_data[7:0] = { ep_out_toggle, ep_out_stall, ep_setup, ep_out_empty, ep_out_full };
+      |                           ^
+%Warning-CASEINCOMPLETE: /tmp/tmp365b3kp4/usb/src/usb2p0_core.v:215:33: Case values incompletely covered (example pattern 0x1)
+  215 |                                 case (recv_pid[3:2])
+      |                                 ^~~~
+%Error: Exiting due to 32 warning(s)
